@@ -17,4 +17,13 @@ fun main() {
     var person: String
     person = "John"
     println(person)
+    val PI = 3.1416
+    println("PI = " + PI)
+    var firstName = "John"
+    var lastName = "Doe"
+//    var fullName = (firstName + lastName).apply {
+//        println(this)
+//    }
+    var fullName = firstName + " " + lastName
+    println(fullName)
 }
